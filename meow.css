@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .poster {
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .poster img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+  }
+  img {
+    width: 20%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    filter: grayscale(100%)brightness(100%);
+    mix-blend-mode: color-burn;
+    }
+ imagelinks {
+    width: 20%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+  #refreshButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #refreshButton:hover {
+    background-color: #45a049;
+  
+  }
+  
